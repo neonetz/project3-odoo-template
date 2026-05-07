@@ -57,6 +57,7 @@ Simple Odoo 19 setup with PostgreSQL using Docker Compose and bind mounts.
 db_host = odoo-db
 db_user = odoo
 db_password = odoo
+master_password = qx8f-4266-8fbv
 ```
 
 The database credentials in this file must match your `.env` file. Without these settings, Odoo will fail to connect to the database when creating new databases.
